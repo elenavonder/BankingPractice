@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BankingPractice
 {
-    class Checking
+    class Checking : Account
     {
         public int Id { get; set; }
         public string Description { get; set; }
