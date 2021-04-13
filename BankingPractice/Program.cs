@@ -10,6 +10,7 @@ namespace BankingPractice
             var acct2 = new Account("Savings for college");
             var acct3 = new Account("Savings for car");
             var acct4 = new Account("Savings for kids");
+            var acct5 = new Account("Checking for Debt");
             acct1.print();
             acct3.Deposit(500);
             acct3.print();
